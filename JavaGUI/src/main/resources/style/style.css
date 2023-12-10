@@ -1,0 +1,42 @@
+.blue-background{
+    -fx-background-color: #94dbe3;
+}
+.transparent-background{
+    -fx-background-color: rgba(0,0,0,0);
+}
+.message-background{
+    -fx-background-color: #04091f;
+}
+.radius{
+    -fx-background-radius: 20px ;
+}
+.text-field{
+    -fx-text-fill: white;
+}
+
+.your-message {
+    -fx-alignment: CENTER_RIGHT;
+    -fx-padding: 0 3 0 0;
+}
+
+.guess-message {
+    -fx-alignment: CENTER_LEFT ;
+    -fx-padding: 0 0 0 3;
+}
+
+.your-message .message-label{
+    -fx-background-color: rgba(74, 234, 145, 0.91);
+    -fx-background-radius: 20px 5px 20px 20px;
+    -fx-padding: 10px;
+}
+
+.guess-message .message-label{
+    -fx-background-color: #ec5bd5;
+    -fx-background-radius: 5px 20px 20px 20px;
+    -fx-padding: 10px;
+}
+
+.message-label {
+    -fx-padding: 0 5px 0 5px;
+    -fx-font-size: 14px;
+}
